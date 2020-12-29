@@ -1,0 +1,64 @@
+body {
+  background-color: black;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
+
+#title {
+  color: white;
+}
+
+.drums {
+  width: 150px;
+  height: 150px;
+  margin: 36px;
+  padding: 24px;
+  box-shadow: 0px 0px 24px cyan, 0px 0px 111px cyan;
+  transition: box-shadow 0.4s, background-color 0.4s;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: cyan;
+}
+button:focus {
+  outline: 0;
+}
+
+.drums:hover {
+  box-shadow: 0px 0px 24px red;
+  background-color: rgb(255, 230, 0);
+}
+
+#button {
+  border: solid rgb(81, 255, 0) 1px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background: none;
+  color: white;
+  padding: 24px;
+  box-shadow: 0px 0px 8px chartreuse;
+  transition: box-shadow 1s;
+}
+
+#button:hover {
+  background: rgb(128, 255, 0);
+  color: black;
+  box-shadow: 0px 0px 24px chartreuse;
+}
+
+#contact {
+  margin-top: 80px;
+  color: white;
+}
+
+input {
+  margin: 8px;
+  font-size: 1.2rem;
+  height: 1.5rem;
+}
+
+#button.send {
+  padding: 12px;
+}
